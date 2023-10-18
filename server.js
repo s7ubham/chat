@@ -1,5 +1,5 @@
 const express = require("express");
-const io = require('socket.io')(8000, {
+const io = require('socket.io')(5050, {
     cors: {
         origin: '*'
     }
