@@ -11,7 +11,7 @@ app.use(express.static('public'));
 
 // Start client on different server
 client = require('http').createServer(app)
-client.listen(5500)
+client.listen(6300)
 
 io.on('connection', socket => {
     socket.on('new-user-joined', username => {
